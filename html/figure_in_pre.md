@@ -1,6 +1,6 @@
 `figure` tags don't behave as plain text inside `pre` tags, so the following code will break in execution:
 
-```
+```html
 <pre>
     <figure>
         <img src="img.jpg" alt="Some alternative text"></img>
@@ -11,7 +11,7 @@
 
 Currently the only way to solve the problem is to escape all relevant tag characters which in this case are all the < and > characters inside the <pre></pre> tags:
 
-```
+```html
 <pre dir="ltr">
 &lt;figure&gt;
     &lt;img src="img.jpg" alt="Some alternative text"&gt;
@@ -24,7 +24,3 @@ Currently the only way to solve the problem is to escape all relevant tag charac
 
 ## using `xmp` tags
 I have tried to put the original code inside <xmp></xmp> tags but currrently these are totally deprecated so it didn’t work; for now we should use the escaping solution above.
-
-## Notes
-
-* The syntax highlighting here is general, not `html` unique, so that both the regular HTML and the escaped HTML will get syntax highlighting.
