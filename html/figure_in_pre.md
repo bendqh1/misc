@@ -27,4 +27,4 @@ I have tried to put the original code inside <xmp></xmp> tags but currrently the
 
 ## Notes
 
-* The \`\`\`---\`\`\` markdown here doesn't include ```html``` so it's not \`\`\`html\`\`\` but just only \`\`\`---\`\`\`.
+* The \`\`\`---\`\`\` markdown here doesn't include ```html```.
