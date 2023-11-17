@@ -27,4 +27,4 @@ I have tried to put the original code inside <xmp></xmp> tags but currrently the
 
 ## Notes
 
-* The \`\`\`---\`\`\` markdown here doesn't include ```html```.
+* The syntax highlighting here is general, not `html` unique, so that both the regular HTML and the escaped HTML will get syntax highlighting.
