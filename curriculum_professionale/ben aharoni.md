@@ -1,5 +1,4 @@
-# FIRST_NAME LAST_NAME
-## Professional title
+# Ben Aharoni
 
 * Languages: Hebrew (fluent), English (fluent), Thai (basic)<br>
 * Phone number: X<br>
