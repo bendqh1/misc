@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width">
 	</head>
 			<form action="mailto:example@example.com" method="get" enctype="text/plain">
-				<label for="fname" dir="rtl">Name</label>
+				<label for="name" dir="rtl">Name</label>
 				<input type="text" class="fname" name="name" required></input><br>
 
 				<label for="email" dir="rtl">Email:</label>
