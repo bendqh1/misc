@@ -8,7 +8,7 @@
 | ฎ      | Do Cha-da    | t             |
 | ฝ      | Fo Fa        | –             |
 | ฟ      | Fo Fan       | p             |
-| ก      | Go Gai       | g             |
+| ก      | Go Gai       | -             |
 | ห      | Ho Hip       | –             |
 | ฮ      | Ho Nok-huk   | –             |
 | จ      | Jo Jan       | t             |
