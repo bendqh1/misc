@@ -1,4 +1,4 @@
-
+Modern Standard Thai Alphabet has about 37 letters (excluding obselete letters).
 
 | Letter | Name         | Ending phonem |
 | ------ | ------------ | ------------- |
