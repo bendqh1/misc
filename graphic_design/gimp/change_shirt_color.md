@@ -11,8 +11,8 @@ How to do that?
 ## Answer (without working with layers)
 
 1. Go to `View` and disable `Show Layer Boundary`.
-2. Select the Red part by the `Fuzzy Select` tool (also called `Magic Wand`) and complete selections by the `Scissors`.
+2. Carefully select the Red parts with zoom in and zoom out by by the `Scissors`.
 	* To start over with selection tools go to `Select > None`.
- 	* Threshold adjustment may be needed.
-3. Go to `Hue-Saturation` and change `Master Hue` to `-115`.
-4. Complete as needed if at all.
+3. If needed, adjust selection by growing or shrinking to ensure touching all boundaries.
+4. Adjust selection points by dragging them respectively.
+5. Go to `Hue-Saturation` and change `Master Hue` to `-115`.
