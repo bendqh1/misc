@@ -10,8 +10,8 @@ How to do that?
 
 ## Answer (without working with layers)
 
-1. Select the Red part by the `Scissors` tool or `Paths` tool.
+1. Select the Red part by the `Fuzzy Select` tool (also called `Magic Wand`) and complete selections by the `Scissors`.
 	* To start over with selection tools go to `Select > None`.
- 	* If by the funnction, threshold adjustment may be needed.
+ 	* Threshold adjustment may be needed.
 3. Go to `Hue-Saturation` and change `Master Hue` to `-115`.
-4. If needed, complete by `Feather` or `Grow/Shrink`.
+4. Complete as needed if at all.
