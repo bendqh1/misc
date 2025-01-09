@@ -13,5 +13,5 @@ How to do that?
 1. Select the Red part by the `Scissors` tool or `Paths` tool.
 	* To start over with selection tools go to `Select > None`.
  	* If by the funnction, threshold adjustment may be needed.
-3. Go to `Hue-Saturation` and change `Master Hue` to `-110`.
+3. Go to `Hue-Saturation` and change `Master Hue` to `-115`.
 4. If needed, complete by `Feather` or `Grow/Shrink`.
