@@ -10,7 +10,7 @@ How to do that?
 
 ## Answer (without working with layers)
 
-1. Select the Red part by the `Scissors` tool or `Paths` tool or by the function `Select > By Color`.
+1. Select the Red part by the `Scissors` tool or `Paths` tool.
 	* To start over with selection tools go to `Select > None`.
  	* If by the funnction, threshold adjustment may be needed.
 3. Go to `Hue-Saturation` and change `Master Hue` to `-110`.
