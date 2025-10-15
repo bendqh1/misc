@@ -100,8 +100,8 @@ DISM /Online /Cleanup-Image /RestoreHealth
 
 No corruption was found anywhere.
 
-## 
+## Windows update troubleshooter finds a problem but doesn't fix it.
 
-1. Restart the PC and after that:<br>
-2. Run Windows Update Troubleshooter again via **Settings** > **System** > **Troubleshoot** > **Other troubleshooters**.
-3. Do `usoclient StartScan`.
+Open **Settings** > **System** > **Recovery**, then under Recovery options, click **Reset this PC** > **Remove everything** > **Local reinstall**.
+
+This fully resets Windows to factory state without needing a product key. Windows 11 will auto-activate after reinstall since the key is tied to the hardware.
