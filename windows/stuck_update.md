@@ -31,10 +31,6 @@ Restart the PC and check for updates.
 
 If after all this you still get:
 
-> Your device is missing important security and quality fixes.
-
-Or longer:
-
 > Your device is missing important security and quality fixes. Make sure to keep your device on and plugged in so updates can complete.
 
 In such case, a PC fix may be needed.
