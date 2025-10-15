@@ -1,4 +1,4 @@
-## 1
+## 1) Run Powershell as Administrator
 
 ```powershell
 Install-Module PSWindowsUpdate -Force
@@ -8,7 +8,7 @@ Import-Module PSWindowsUpdate
 * If asked to install NuGet:<br>
 NuGet is a Microsoft package manager required to download PowerShell modules like PSWindowsUpdate. It's safe and necessary in this context.
 
-## 2
+## 2 Hide a given update
 
 ```powershell
 Hide-WindowsUpdate -Title "UPDATE_TITLE_COMES_HERE_EXACTLY_AS_WRITTEN"
@@ -23,7 +23,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 And only then run the command to hide the update.
 
-## 3
+## 3 Restart
 
 Restart the PC and check for updates.
 
