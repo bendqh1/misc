@@ -148,3 +148,6 @@ If the processor is too old to install than Bypass CPU/TPM checks for Windows 11
 6. Go to the `Win11_Bypass` folder and **run `setup.exe`**.  
 7. Proceed with the **in-place upgrade**, choosing **Keep personal files and apps**.  
    
+## If this isn't enough
+
+* Buy a new computer or try to some tweak to hide the icon, maybe with AutoHotkey.
