@@ -122,7 +122,7 @@ Doing a full Windows reset via **Settings** > **System** > **Recovery** and then
 
 Short answer without waffling. No emojis and no colorful characters. Just a short explanation about what to do.
 
-# Answer
+# Attempt 1
 
 ## Download and install Windows 11 in the latest version directly - without a boot or with a boot
 
@@ -151,7 +151,15 @@ If, according CPU/TPM checks,  the processor is too old to install the newest ve
 5. **Double-click `bypass.reg`** to apply the registry tweak. Click Yes when prompted.  
 6. Go to the `Win11_Bypass` folder and **run `setup.exe`**.  
 7. Proceed with the **in-place upgrade**, choosing **Keep personal files and apps**.  
-   
-## If this isn't enough
 
-* Buy a new computer or try to some tweak to hide the icon, maybe with AutoHotkey.
+## Failure
+
+Windows 11 setup is stuck at the "Getting updates" phase, at 46% for 30 minutes, even though internet works and stable.
+
+We can try to run `setup.exe` with `/compat IgnoreWarning` and `/dynamicupdate disable` flags via Command Prompt:
+
+```cmd
+cd %USERPROFILE%\Desktop\Win11_Bypass
+setup.exe /compat IgnoreWarning /dynamicupdate disable
+```
+
