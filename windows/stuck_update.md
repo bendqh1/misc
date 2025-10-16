@@ -164,9 +164,10 @@ We can try to run `setup.exe` with `/compat IgnoreWarning` and `/dynamicupdate d
 reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"
 ```
 
-Navigate to Desktop and then run:
+### Reopen CMD as Administrator
 
 ```cmd
+cd DESKTOP_WHEREVER_IT_IS
 cd Win11_Bypass
 setup.exe /compat IgnoreWarning /dynamicupdate disable
 ```
