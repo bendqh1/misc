@@ -1,3 +1,5 @@
+# Question
+
 In Windows 11 Home the following error appears in every update attempt:
 
 > Your device is missing important security and quality fixes. Make sure to keep your device on and plugged in so updates can complete.
@@ -16,7 +18,7 @@ If asked to install *NuGet* than install it because NuGet is a Microsoft package
 ## Hide a given update
 
 ```powershell
-Hide-WindowsUpdate -Title "UPDATE_TITLE_COMES_HERE_EXACTLY_AS_WRITTEN"
+Hide-WindowsUpdate -Title "hp usb 12/10/2018 12:00 AM - 49.0.4411.18331"
 ```
 
 * If getting an error about the lack of ability to run scripts due to to Powershell execution policy, then to  proceed safely temporarily allow scripts for your current session only:
@@ -38,7 +40,7 @@ Something like this sould be put out:
 ```
 ComputerName Status     KB          Size Title
 ------------ ------     --          ---- -----
-X          -D--H--                14MB UPDATE_TITLE_COMES_HERE_EXACTLY_AS_WRITTEN
+X          -D--H--                14MB UPDATE_TITLE_COMES_HERE
 ```
 
 `-D--H--` means "Declined" and "Hidden".
