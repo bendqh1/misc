@@ -158,8 +158,15 @@ Windows 11 setup is stuck at the "Getting updates" phase, at 46% for 30 minutes,
 
 We can try to run `setup.exe` with `/compat IgnoreWarning` and `/dynamicupdate disable` flags via Command Prompt:
 
+### Find Desktop dir:
+
 ```cmd
-cd %USERPROFILE%\Desktop\Win11_Bypass
-setup.exe /compat IgnoreWarning /dynamicupdate disable
+reg query "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders"
 ```
 
+Navigate to Desktop and then run:
+
+```cmd
+cd Win11_Bypass
+setup.exe /compat IgnoreWarning /dynamicupdate disable
+```
