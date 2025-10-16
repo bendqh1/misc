@@ -124,15 +124,19 @@ Short answer without waffling. No emojis and no colorful characters. Just a shor
 
 # Answer
 
+## Download and install Windows 11 in the latest version directly - without a boot or with a boot
+
 * Download a ~7GB ISO of Windows 11.
-* Mount the ISO (open it like opening an archive).
-* Click `setup.ext`.
+* Mount the ISO by opening it like opening an archive file (right-click > Mount).
+* Click `setup.exe` and install Windows 11 without a boot.
 
-If this isn't enough, a format and complete installation is needed.
+If this isn't enough, a boot installation is required.
 
-If the processor is too old to install than Bypass CPU/TPM checks for Windows 11 upgrade from ISO:
+## If a processor is too old for a newer version of Windows 11
 
-1. **Mount the ISO** (right-click > Mount).
+If, according CPU/TPM checks,  the processor is too old to install the newest version of Windows 11 without a boot then try the following:
+
+1. **Mount the ISO**.
 2. **Copy all files** from the mounted ISO to a new folder on your desktop, e.g. `Win11_Bypass`.
 3. Open **Notepad** and paste:
 
