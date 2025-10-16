@@ -121,3 +121,30 @@ Doing a full Windows reset via **Settings** > **System** > **Recovery** and then
 ## How to solve that problem?
 
 Short answer without waffling. No emojis and no colorful characters. Just a short explanation about what to do.
+
+# Answer
+
+* Download a ~7GB ISO of Windows 11.
+* Mount the ISO (open it like opening an archive).
+* Click `setup.ext`.
+
+If this isn't enough, a format and complete installation is needed.
+
+If the processor is too old to install than Bypass CPU/TPM checks for Windows 11 upgrade from ISO:
+
+1. **Mount the ISO** (right-click > Mount).
+2. **Copy all files** from the mounted ISO to a new folder on your desktop, e.g. `Win11_Bypass`.
+3. Open **Notepad** and paste:
+
+ ```reg
+ Windows Registry Editor Version 5.00
+
+ [HKEY_LOCAL_MACHINE\SYSTEM\Setup\MoSetup]
+ "AllowUpgradesWithUnsupportedTPMOrCPU"=dword:00000001
+ ```
+
+4. Save it as `bypass.reg` on your desktop.  
+5. **Double-click `bypass.reg`** to apply the registry tweak. Click Yes when prompted.  
+6. Go to the `Win11_Bypass` folder and **run `setup.exe`**.  
+7. Proceed with the **in-place upgrade**, choosing **Keep personal files and apps**.  
+   
