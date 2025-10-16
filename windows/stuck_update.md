@@ -57,7 +57,7 @@ X          -D--H--                14MB UPDATE_TITLE_COMES_HERE
 
 ### Reset Windows update components
 
-Still getting:
+After resetting I get:
 
 > Your device is missing important security and quality fixes. Make sure to keep your device on and plugged in so updates can complete.
 
@@ -112,11 +112,11 @@ DISM /Online /Cleanup-Image /RestoreHealth
 
 No corruption was found anywhere.
 
-### Windows update troubleshooter finds a problem but doesn't fix it.
+### Resetting Windows.
 
-Open **Settings** > **System** > **Recovery**, then under Recovery options, click **Reset this PC** > **Remove everything** > **Local reinstall**.
+Windows update troubleshooter finds a problem but doesn't fix it.
 
-This fully resets Windows to factory state without needing a product key. Windows 11 will auto-activate after reinstall since the key is tied to the hardware.
+Doing a full Windows reset via **Settings** > **System** > **Recovery** and then under Recovery options, click **Reset this PC** > **Remove everything** > **Local reinstall** didn't help at all. The original problem persists.
 
 ## How to solve that problem?
 
