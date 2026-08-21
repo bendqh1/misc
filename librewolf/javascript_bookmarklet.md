@@ -6,6 +6,12 @@ A JavaScript bookmarklet is a normal browser bookmark whose "address" is a JavaS
 4. Save a code like the following to it.
 
 ```js
+javascript:document.head.appendChild(Object.assign(document.createElement('style'),{textContent:'*,*:before,*:after{direction:ltr!important;text-align:left!important}'}))
+```
+
+Or:
+
+```js
 javascript:(()=>{let s=document.getElementById('force-ltr-style')||document.head.appendChild(document.createElement('style'));s.id='force-ltr-style';s.textContent='html,body,body *{direction:ltr!important;text-align:left!important}';document.documentElement.dir='ltr';document.body.dir='ltr'})()
 ```
 
