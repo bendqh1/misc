@@ -1,6 +1,6 @@
 A JavaScript bookmarklet is a normal browser bookmark whose "address" is a JavaScript instead of a URL.
 
-1. Hit <kbd>Ctrl></kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to show the bookmarks toolbar.
+1. Hit <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>B</kbd> to show the bookmarks toolbar.
 2. Click on "Add Bookmark".
 3. Set name "Force LTR".
 4. Save a code like the following to it.
